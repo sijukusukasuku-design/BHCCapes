@@ -1,0 +1,12 @@
+capes:
+  bhc:
+    name: "BHC Cape"
+    item-model: "bhc:cape/bhc"
+    permission: ""
+
+settings:
+  offset-back: 0.17
+  offset-y: -0.8
+  sneak-offset-y: -0.2
+  show-to-owner: true
+  hide-with-elytra: true
