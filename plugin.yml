@@ -1,0 +1,17 @@
+name: BHCCapes
+version: 1.0.0
+main: id.bhc.capes.CapesPlugin
+api-version: '1.21'
+description: Cape custom (model resource pack) yang disimpan per pemain.
+commands:
+  cape:
+    description: Pilih atau lepas cape
+    usage: /cape <nama|off|list|reload>
+    aliases: [capes]
+permissions:
+  capes.use:
+    description: Boleh pakai /cape
+    default: true
+  capes.admin:
+    description: Boleh /cape reload
+    default: op
